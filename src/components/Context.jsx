@@ -6,62 +6,63 @@ export const DataProvider = (props) => {
     const[products, setProducts] = useState([
         {
             "_id":"1",
-             "title": "Choco Smoothie",
-             "images": "https://images.pexels.com/photos/6261272/pexels-photo-6261272.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+             "title": "Tharindu Ranaweera",
+             "images": "https://img.freepik.com/free-vector/gradient-elegant-certificate_52683-63963.jpg?w=740&t=st=1665229488~exp=1665230088~hmac=922ca6a91067d3b76b8c278d4117a804711116cba574eb896865acba174be0adhttps://img.freepik.com/free-vector/gradient-elegant-certificate_52683-63963.jpg?w=740&t=st=1665229488~exp=1665230088~hmac=922ca6a91067d3b76b8c278d4117a804711116cba574eb896865acba174be0ad",
              "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae pariatur quia delectus praesentium",
-             "note": "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
-             "specialp": "buy 2 get 1 free",
-             "price": 440.00,
+             "note": "Congratulation for your Achivement",
+             "date": "08/10/2022",
+             "level": "level 01",
+             "code": "$hbkbkjbj%#52dd2262"
          },
          {
              "_id": "2",
-             "title": "Banana Smoothie",
-             "images": "https://images.pexels.com/photos/5946804/pexels-photo-5946804.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+             "title": "Sanduni Sathsara",
+             "images": "https://img.freepik.com/free-vector/clean-certificate-template-multipurpose-use_1017-31372.jpg?w=740&t=st=1665229612~exp=1665230212~hmac=a2ea9ce3996de8e6b34072c0353160a9cf36564b48cbf03f161a77deca51ae64",
              "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae pariatur quia delectus praesentium",
-             "note": "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
-             "specialp": "buy 2 get 1 free",
-             "price": 260.00,
-
+             "note": "Congratulation for your Achivement",
+             "date": "25/09/2022",
+             "level": "level 05",
+             "code": "$hbkbkjbj%#52dd2262"
          },
          {
              "_id": "3",
-             "title": "Watermelon Juice",
-             "images": "https://images.pexels.com/photos/1337825/pexels-photo-1337825.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+             "title": "Jhon Doe",
+             "images": "https://img.freepik.com/free-vector/engraving-hand-drawn-ornamental-certificate_52683-64060.jpg?w=740&t=st=1665229779~exp=1665230379~hmac=f2008f2e6102f8b8d1d6da22003450d0d1de933adca0ef5f9f971f12e116c012",
              "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae pariatur quia delectus praesentium",
-             "note": "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
-             "specialp": "buy 2 get 1 free",
-             "price": 130.00,
-
+             "note": "Congratulation for your Achivement",
+             "date": "14/09/2022",
+             "level": "level 04",
+             "code": "$hbkbkjbj%#52dd2262"
          },
          {
              "_id": "4",
-             "title": "Kiwi Juice",
-             "images": "https://images.pexels.com/photos/1149300/pexels-photo-1149300.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+             "title": "Eleena Jansen",
+             "images": "https://img.freepik.com/free-psd/editable-certificate-template-psd-minimal-botanical-design_53876-123364.jpg?w=740&t=st=1665230095~exp=1665230695~hmac=d23d6ed12533a70d574d3eef58fcf05c1076525fa18f937b280adcdb03d1b396",
              "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae pariatur quia delectus praesentium",
-             "note": "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
-             "specialp": "buy 2 get 1 free",
-             "price": 800.00,
-
+             "note": "Congratulation for your Achivement",
+             "date": "08/06/2022",
+             "level": "level 08",
+             "code": "$hbkbkjbj%#52dd2262"
          },
          {
              "_id": "5",
-             "title":"Carrot Juice",
-             "images": "https://images.pexels.com/photos/8215133/pexels-photo-8215133.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+             "title":"Senith Perera",
+             "images": "https://img.freepik.com/free-psd/certificate-achievement-template-psd-luxury-design_53876-123370.jpg?w=740&t=st=1665229873~exp=1665230473~hmac=1ad2eab67085a0bfb9fba2edafcf0c9ea6e40de8073ce3f6cec22d77112fd6e7",
              "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae pariatur quia delectus praesentium",
-             "note": "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
-             "specialp": "buy 2 get 1 free",
-             "price": 320.00,
-
+             "note": "Congratulation for your Achivement",
+             "date": "04/10/2022",
+             "level": "level 01",
+             "code": "$hbkbkjbj%#52dd2262"
          },
          {
              "_id": "6",
-             "title": "Dark Coffee",
-             "images": "https://images.pexels.com/photos/312418/pexels-photo-312418.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+             "title": "Kaveesha Dias",
+             "images": "https://img.freepik.com/free-psd/vintage-floral-certificate-template-psd-classy-style_53876-114568.jpg?w=740&t=st=1665230031~exp=1665230631~hmac=c65ff3123eade61ee7a88e7fef5e7e5fe4870ac51db3876a41726abdc3d1461f",
              "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae pariatur quia delectus praesentium",
-             "note": "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
-             "specialp": "buy 2 get 1 free",
-             "price": 280.00,
-
+             "note": "Congratulation for your Achivement",
+             "date": "01/10/2022",
+             "level": "level 02",
+             "code": "$hbkbkjbj%#52dd2262"
          }
     ])
     const [special, setSpecial] = useState([

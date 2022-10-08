@@ -9,6 +9,8 @@ import Details from './Pages/ProductDetails/Details';
 import Footer from './components/Footer/Footer';
 import Admin from './Pages/Admin/Admin';
 import Contact from './Pages/Contact/Contact';
+import Profile from './Pages/Profile/Profile';
+import Wallet from './Pages/Wallet/Wallet';
 
 
 function App() {
@@ -32,6 +34,12 @@ function App() {
           </Route>
           <Route path="/contacts">
             <Contact />
+          </Route>
+          <Route path="/profile">
+            <Profile />
+          </Route>
+          <Route path="/wallet">
+            <Wallet />
           </Route>
         </Switch>
         <Footer />

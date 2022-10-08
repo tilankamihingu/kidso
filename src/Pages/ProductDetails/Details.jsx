@@ -1,5 +1,6 @@
 import React,{ useContext } from 'react';
 import {useParams} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 import {DataContext} from '../../components/Context';
 import './Details.css';
 
@@ -27,10 +28,11 @@ export default function Details(){
                             </div>
                             <div className="detail-col">
                                 <h1>{product.title}</h1>
-                                <p className="desc-detail">{product.description}</p>
-                                <h4>Rs.{product.price}</h4>
-                                <h3>{product.specialp}</h3>
-                                <p>{product.note}</p>
+                                <p className="desc-detail">{product.note}</p>
+                                <h4>{product.level}</h4>
+                                <h3>{product.date}</h3>
+                                <p>{product.description}</p>
+                                <Link to={`/details/${product._id}`}><button className="certificate-detail-btn">Upload Now</button></Link>
                             </div>
                         </div>
                     </div>

@@ -75,3 +75,25 @@
     font-size: 20px;
     color: #000;
 }
+.certificate-detail-btn{
+    background: #e1ad01;
+    font-size: 18px;
+    color: #000;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 0px;
+    border: none;
+    height: 45px;
+    width: 60%;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.certificate-detail-btn a{
+    text-decoration: none;
+    color: #000;
+}
+
+.certificate-detail-btn:hover{
+    color: #fff;
+}
