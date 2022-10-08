@@ -6,7 +6,6 @@ import Aos from 'aos';
 import "aos/dist/aos.css";
 import './Home.css';
 import Mission from '../../images/mission.jpg';
-import Store from '../../images/store.jpg';
 import Green from '../../images/green.jpg';
 import Banner from '../../images/banfinal.png';
 import Math from '../../images/math.jpg';
@@ -14,8 +13,7 @@ import Eng from '../../images/english.jpg';
 import Enter from '../../images/enter.jpg';
 
 const Home = () => {
-    const value = useContext(DataContext)
-    const [specials] = value.specials
+   
 
     useEffect(() => {
         Aos.init({duration: 2000 });
