@@ -1,5 +1,4 @@
-import React, {useContext, useEffect} from 'react';
-import { DataContext } from '../../components/Context';
+import React, { useEffect} from 'react';
 import { Link } from 'react-router-dom';
 import Slider from '../../components/carousels/Slider';
 import Aos from 'aos';
