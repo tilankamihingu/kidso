@@ -1,0 +1,106 @@
+.admin{
+    
+    width: 100%;
+    padding: 10px;
+}
+
+.admin-table{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table{
+    width: 100%;
+}
+
+table caption{
+    font-size: 37px;
+    margin-bottom: 20px;
+}
+
+table tr{
+    border: 10px solid #000;
+    background-color: #dee1ec;
+}
+
+table th{
+    font-size: 26px;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+table td{
+    padding: 10px;
+    text-align: center;
+}
+
+table td img{
+    max-width: 100px;
+}
+
+.ad-view{
+    width: 100px;
+    background-color: #eac100;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.ad-up{
+    width: 100px;
+    background-color: #10316b;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.ad-del{
+    width: 100px;
+    background-color: #d72323;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}
+
+@media screen and (max-width:700px){
+    .admin{
+        padding: 5px;
+    }
+    
+    table th{
+        font-size: 12px;
+        padding: 5px;
+    }
+
+    table td{
+        padding: 5px;
+        font-size: 8px;
+    }
+
+    table td img{
+        width: 40px;
+    }
+
+    .ad-view{
+        width: 40px;
+        height: 20px;
+        font-size: 8px;
+        text-align: center;
+    }
+
+    .ad-up{
+        width: 40px;
+        height: 20px;
+        font-size: 8px;
+        text-align: center;
+    }
+
+    .ad-del{
+        width: 40px;
+        height: 20px;
+        font-size: 8px;
+        text-align: center;
+    }
+}
