@@ -8,6 +8,9 @@ export default function Wallet(){
     
     return(
         <div className="certificate-full">
+            <div className="bg-image">
+                
+            </div>
         <div className="certificate-container">
             <div className="certificate-heading">
                 <h1>My Wallet</h1>
