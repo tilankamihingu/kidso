@@ -39,7 +39,6 @@ const Home = () => {
                     <h3>That A Look And find out more about</h3>
                     <h1>our mission</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque exercitationem quaerat in, molestiae recusandae, eveniet eligendi repellat voluptatem, rerum enim asperiores a vitae facilis nulla voluptate maiores. Cum, eveniet corporis! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia doloremque aspernatur aut nulla? Nisi voluptatibus tempora ab, repellat inventore est totam consequatur velit veritatis illum in atque odit libero accusamus.</p>
-                    <h2>Find out more about us</h2>
                 </div>
                 <div className="third-container-right" data-aos="fade-up">
                     <img src={Mission} alt="" />
@@ -57,9 +56,8 @@ const Home = () => {
             <div className="fifth-container">
                 <div className="fifth-container-left" data-aos="fade-up">
                     <h3>Mobile Version</h3>
-                    <h1>We Maintain our mobile App</h1>
+                    <h1>Kidsable mobile App</h1>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae pariatur quia delectus praesentium exercitationem nesciunt quos possimus, expedita nisi laboriosam molestias illo hic quod veniam corporis ea? Ab, architecto aspernatur.</p>
-                    <h2>Read More</h2>
                 </div>
                 <div className="fifth-container-right" data-aos="fade-up">
                     <img src={Green} alt="" />
@@ -79,9 +77,7 @@ const Home = () => {
                         <div className="games-card">
                             <img src={Enter} alt="" />
                         </div>
-                    
-                        
-                    
+                   
                     </div>
                 </div>
             </div>

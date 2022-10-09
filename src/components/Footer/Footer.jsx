@@ -16,11 +16,9 @@ const Footer = () => {
                         <h3>Quick Contacts</h3>
                        <ul>
                            <li>02568935</li>
-                           <li>aqua@gmail.com</li>
-                           <li>Aqua store</li>
-                           <li>galle,sri lanka</li>
+                           <li>Kidsable@gmail.com</li>
                        </ul>
-                        <p>Copyright@tilankamihingu</p>
+                        
                     </div>
                     <div className="right-box">
                         <Map />

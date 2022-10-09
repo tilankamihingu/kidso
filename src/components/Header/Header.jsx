@@ -22,9 +22,9 @@ function Header() {
                 <nav>
                     <ul style={styleMenu}>
                         <li onClick={toggleMenu}><Link to="/">Home</Link></li>
-                        <li onClick={toggleMenu}><Link to="/products">products</Link></li>
-                        <li onClick={toggleMenu}><Link to="/contacts">contact Us</Link></li>
+                        <li onClick={toggleMenu}><Link to="/products">Certificates</Link></li>
                         <li onClick={toggleMenu}><Link to="/profile">Profile</Link></li>
+                        <li onClick={toggleMenu}><Link to="/login">Login</Link></li>
                         <li onClick={toggleMenu}><img src={Close} className="menu" alt="" /></li>
                     </ul>
                 </nav>

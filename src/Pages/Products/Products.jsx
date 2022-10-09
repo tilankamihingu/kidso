@@ -9,6 +9,9 @@ export default function Products(){
     
     return(
         <div className="certificate-full">
+            <div className="bg-image">
+            </div>
+    
         <div className="certificate-container">
             <div className="certificate-heading">
                 <h1>certificates</h1>

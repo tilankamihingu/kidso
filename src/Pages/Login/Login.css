@@ -1,4 +1,4 @@
-.contact-content{
+.Login-content{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -7,30 +7,33 @@
     margin-bottom: 60px;
 }
 
-.contact{
+.Login{
     position: relative;
     display: flex;
-    max-width: 600px;
+    flex-wrap: nowrap;
+    max-width: 800px;
     width: 100%;
     margin-top: 20vh;
-    border: 2px solid #17b978;
+    border: 2px solid #e5e5e5;
 }
 
 .left-side{
-    width: 40%;
-    background: #17b978;
+    width: 55%;
+    background: #1d3557;
     text-align: center;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .left-side img{
-    width: 150px;
-    height: 100px;
-    margin-top: 100px;
+    max-width:380px;
+    width: 100%;
+    object-fit: contain;
 }
 
 .title-register{
-    margin: auto;
     color: #fff;
     font-size: 40px;
 }
@@ -114,12 +117,25 @@
 
 @media screen and (max-width:700px){
     
+    .Login{
+        flex-direction: column;
+    }
+    .left-side{
+        width: 100%;
+    }
+
+    .left-side img{
+        width: 100%;
+    }
+    .right-side{
+        width: 100%;
+    }
     .title-register{
         font-size: 30px;
     }
 
     .right-side input{
-        height: 30px;
+        height: 40px;
     }
     .footer-container{
         flex-direction: column;

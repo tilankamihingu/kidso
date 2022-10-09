@@ -30,9 +30,10 @@ export default function Details(){
                                 <h1>{product.title}</h1>
                                 <p className="desc-detail">{product.note}</p>
                                 <h4>{product.level}</h4>
+                                <h2>Upload Date</h2>
                                 <h3>{product.date}</h3>
                                 <p>{product.description}</p>
-                                <Link to={`/details/${product._id}`}><button className="certificate-detail-btn">Upload Now</button></Link>
+                                <Link to={`/profile`}><button className="certificate-detail-btn">Upload Now</button></Link>
                             </div>
                         </div>
                     </div>

@@ -66,8 +66,8 @@
 }
 
 .detail-col h3{
-    font-size: 30px;
-    color: #ccc;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.473);
     margin-bottom: 20px;
 }
 
